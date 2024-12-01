@@ -8,6 +8,8 @@ import numpy as np
 # Set the Streamlit page configuration
 st.set_page_config(layout="wide", page_title="Trading Strategy Backtest Dashboard")
 with st.sidebar:
+    st.markdown("<h4 style='font-size: 18px; color: gray;'>Set timeframe of multiple years to ensure there is enough data</h4>", unsafe_allow_html=True)
+
     st.title(" 📊 Trading Strategy Backtest Dashboard")
     st.markdown("<h4 style='font-size: 20px;'>Created by:</h4>", unsafe_allow_html=True)  # Set font size for the "Created by" text
     linkedin_url = "https://www.linkedin.com/in/mkulis/"
